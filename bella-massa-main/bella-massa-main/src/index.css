@@ -1,0 +1,35 @@
+/* Identidade visual: so estas cores mudam de um site para outro */
+:root {
+  --cor-principal: #a61e1e;
+  --cor-destaque: #f4a300;
+  --cor-fundo: #fbf6ee;
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: 'Poppins', sans-serif; }
+section { scroll-margin-top: 72px; }
+h2 { font-weight: 700; }
+
+.navbar-pizza { background: var(--cor-principal); }
+
+/* variant="pizza" no <Button> gera a classe .btn-pizza */
+.btn-pizza {
+  --bs-btn-bg: var(--cor-destaque);
+  --bs-btn-border-color: var(--cor-destaque);
+  --bs-btn-color: #fff;
+  --bs-btn-hover-bg: #d98f00;
+  --bs-btn-hover-border-color: #d98f00;
+  --bs-btn-hover-color: #fff;
+  font-weight: 600;
+}
+
+.hero { background: #2a0d08; color: #fff; padding: 5rem 0; }
+.hero h1 { font-size: 3rem; font-weight: 700; }
+.hero h1 span { color: var(--cor-destaque); }
+.hero-img { max-width: 420px; }
+
+.bg-creme { background: var(--cor-fundo); }
+.icone { font-size: 2rem; color: var(--cor-principal); }
+.preco { color: var(--cor-principal); font-size: 1.2rem; }
+.chamada { background: var(--cor-principal); }
+.rodape { background: #1f1512; color: rgba(255, 255, 255, .7); }
